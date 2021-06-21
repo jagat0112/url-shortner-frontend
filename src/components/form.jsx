@@ -15,7 +15,7 @@ const Form = () => {
 
     setLoading(true);
     const { data } = await axios.post(
-      "https://reduce-url-min.herokuapp.com/api/url",
+      "https://chotourl.herokuapp.com/api/url",
       { longUrl: link }
     );
     setTimeout(() => {
